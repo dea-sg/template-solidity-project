@@ -1,1 +1,5 @@
-# guild-token
+# Guild Token
+
+```bash
+yarn
+```
