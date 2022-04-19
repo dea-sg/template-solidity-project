@@ -55,6 +55,7 @@ describe('UpgradeableProxy', () => {
 				const res = await admin
 					.connect(addr1)
 					.upgrade(proxy.address, nextImpl.address)
+					// eslint-disable-next-line max-nested-callbacks
 					.catch((err: Error) => err)
 				const impl1 = await admin.getProxyImplementation(proxy.address)
 				expect(res).to.be.instanceOf(Error)
