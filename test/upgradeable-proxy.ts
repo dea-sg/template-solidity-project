@@ -2,7 +2,7 @@ import { expect, use } from 'chai'
 import { ethers } from 'hardhat'
 import { solidity } from 'ethereum-waffle'
 import { deploy, deployProxy } from './utils'
-import { ExampleToken, UpgradeableProxy } from '../typechain'
+import { ExampleToken, UpgradeableProxy } from '../typechain-types'
 
 use(solidity)
 

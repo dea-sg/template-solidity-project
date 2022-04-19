@@ -3,7 +3,7 @@ import {
 	Admin__factory,
 	UpgradeableProxy__factory,
 	ExampleToken__factory,
-} from '../typechain'
+} from '../typechain-types'
 
 async function main() {
 	const exampleFactory = (await ethers.getContractFactory(
