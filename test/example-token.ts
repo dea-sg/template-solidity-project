@@ -1,7 +1,7 @@
 import { expect, use } from 'chai'
 import { solidity } from 'ethereum-waffle'
 import { deploy } from './utils'
-import { ExampleToken } from '../typechain'
+import { ExampleToken } from '../typechain-types'
 
 use(solidity)
 
