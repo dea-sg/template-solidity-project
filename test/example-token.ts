@@ -1,6 +1,7 @@
 import { expect, use } from 'chai'
+import { ethers } from 'hardhat'
 import { solidity } from 'ethereum-waffle'
-import { deploy, makeSnapshot, resetChain } from './utils'
+import { makeSnapshot, resetChain } from './utils'
 import { ExampleToken } from '../typechain-types'
 
 use(solidity)
@@ -9,7 +10,9 @@ describe('Example', () => {
 	let example: ExampleToken
 	let snapshot: string
 	before(async () => {
-		example = await deploy<ExampleToken>('ExampleToken')
+		const factory = await ethers.getContractFactory('ExampleToken')
+		example = (await factory.deploy()) as ExampleToken
+		await example.deployed()
 		await example.initialize()
 	})
 	beforeEach(async () => {
