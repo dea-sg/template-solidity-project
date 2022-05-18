@@ -1,35 +1,15 @@
-import { ethers } from 'hardhat'
-import {
-	Admin__factory,
-	UpgradeableProxy__factory,
-	ExampleToken__factory,
-} from '../typechain-types'
+/* eslint-disable new-cap */
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
+import { ethers, upgrades } from 'hardhat'
 
 async function main() {
-	const exampleFactory = (await ethers.getContractFactory(
-		'ExampleToken'
-	)) as ExampleToken__factory
-	const example = await exampleFactory.deploy()
-
-	const adminFactory = (await ethers.getContractFactory(
-		'Admin'
-	)) as Admin__factory
-	const admin = await adminFactory.deploy()
-	await admin.deployed()
-
-	const upgradeableProxyFactory = (await ethers.getContractFactory(
-		'UpgradeableProxy'
-	)) as UpgradeableProxy__factory
-	const upgradeableProxy = await upgradeableProxyFactory.deploy(
-		example.address,
-		admin.address,
-		ethers.utils.arrayify('0x')
-	)
-	await upgradeableProxy.deployed()
-
-	console.log('Example address:', example.address)
-	console.log('Admin address:', admin.address)
-	console.log('UpgradeableProxy address:', upgradeableProxy.address)
+	const tokenFactory = await ethers.getContractFactory('ExampleToken')
+	const token = await upgrades.deployProxy(tokenFactory, [], { kind: 'uups' })
+	await token.deployed()
+	console.log('proxy was deployed to:', token.address)
+	const filter = token.filters.Upgraded()
+	const events = await token.queryFilter(filter)
+	console.log('logic was deployed to:', events[0].args!.implementation)
 }
 
 main()
