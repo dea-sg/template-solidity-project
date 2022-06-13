@@ -24,6 +24,12 @@ jobs:
       - name: set foundry path
         run: source /home/runner/.bashrc
 
+      - name: display1
+        run: cat ~/.zshr
+
+      - name: display2
+        run: cat ~/.bashrc
+
       - name: setup foundry
         run: foundryup
 
