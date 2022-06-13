@@ -18,10 +18,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: install foundryup
+      - name: install foundry
         run: curl -L https://foundry.paradigm.xyz | bash;
 
-      - name: setup foundryup
+      - name: set foundry path
+        run: source /home/runner/.bashrc
+
+      - name: setup foundry
         run: foundryup
 
       - name: install deps
