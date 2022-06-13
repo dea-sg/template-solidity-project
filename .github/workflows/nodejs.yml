@@ -24,11 +24,8 @@ jobs:
       - name: set foundry path
         run: source /home/runner/.bashrc
 
-      - name: display
-        run: cat ~/.bashrc
-
       - name: setup foundry
-        run: foundryup
+        run: /home/runner/.foundry/bin/foundryup
 
       - name: install deps
         run: yarn
