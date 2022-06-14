@@ -4,7 +4,6 @@ pragma solidity =0.8.9;
 import "forge-std/src/Test.sol";
 import "../contracts/ExampleToken.sol";
 
-
 contract ExampleTokenTest is Test {
 	ExampleToken exampleToken;
 
@@ -14,10 +13,10 @@ contract ExampleTokenTest is Test {
 	}
 
 	function testGetName() public {
-        assertTrue(exampleToken.name() == "token");
-    }
+		assertTrue(exampleToken.name() == "token");
+	}
 
 	function testGetSymbol() public {
-        assertTrue(exampleToken.symbol() == "TOKEN");
-    }
+		assertTrue(exampleToken.symbol() == "TOKEN");
+	}
 }
