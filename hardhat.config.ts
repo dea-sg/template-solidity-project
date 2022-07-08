@@ -1,9 +1,8 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import '@typechain/hardhat'
-import '@nomiclabs/hardhat-ethers'
-import '@nomiclabs/hardhat-waffle'
-import '@nomiclabs/hardhat-etherscan'
+
+import '@nomicfoundation/hardhat-toolbox'
 import '@openzeppelin/hardhat-upgrades'
+import '@nomicfoundation/hardhat-chai-matchers'
 import * as dotenv from 'dotenv'
 
 dotenv.config()

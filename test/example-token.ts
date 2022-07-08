@@ -1,14 +1,14 @@
-import { expect, use } from 'chai'
+import { expect } from 'chai'
 import { ethers } from 'hardhat'
-import { solidity } from 'ethereum-waffle'
-import { makeSnapshot, resetChain } from './utils'
+import {
+	takeSnapshot,
+	SnapshotRestorer,
+} from '@nomicfoundation/hardhat-network-helpers'
 import { ExampleToken } from '../typechain-types'
-
-use(solidity)
 
 describe('Example', () => {
 	let example: ExampleToken
-	let snapshot: string
+	let snapshot: SnapshotRestorer
 	before(async () => {
 		const factory = await ethers.getContractFactory('ExampleToken')
 		example = (await factory.deploy()) as ExampleToken
@@ -16,10 +16,10 @@ describe('Example', () => {
 		await example.initialize()
 	})
 	beforeEach(async () => {
-		snapshot = await makeSnapshot()
+		snapshot = await takeSnapshot()
 	})
 	afterEach(async () => {
-		await resetChain(snapshot)
+		await snapshot.restore()
 	})
 	describe('name', () => {
 		it('check name', async () => {
