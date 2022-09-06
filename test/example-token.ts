@@ -1,10 +1,8 @@
 import { expect } from 'chai'
 import { ethers } from 'hardhat'
-import {
-	takeSnapshot,
-	SnapshotRestorer,
-} from '@nomicfoundation/hardhat-network-helpers'
-import { ExampleToken } from '../typechain-types'
+import type { SnapshotRestorer } from '@nomicfoundation/hardhat-network-helpers'
+import { takeSnapshot } from '@nomicfoundation/hardhat-network-helpers'
+import type { ExampleToken } from '../typechain-types'
 
 describe('Example', () => {
 	let example: ExampleToken
