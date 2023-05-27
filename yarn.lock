@@ -821,10 +821,10 @@
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.9.0.tgz#683f33b6598970051bc5f0806fd8660da9e018dd"
   integrity sha512-DUP74AFGKlic2sQb/CmgrN2aUPMFGxRrmCTUxLHsiU2RzwWqVuMPZBxiAyvlff6Pea77uylAX6B5x9W6evEbhA==
 
-"@openzeppelin/hardhat-upgrades@1.26.0":
-  version "1.26.0"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-1.26.0.tgz#a1c667c6fd59fa90d026bab461486ea2bffb948f"
-  integrity sha512-ggCvdIf7A9QcMedCaswecgt3N7hacx3qYOn+4bNPqMAwslo/SJ9vN4AhV0VWkDcY4CqFFou3RFQmDWNeLMBX9A==
+"@openzeppelin/hardhat-upgrades@1.27.0":
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-1.27.0.tgz#0e304041d72c97979c76466137b48733120270fd"
+  integrity sha512-+OwrHWDz9tzpmBev6t2CtZM2tRpy/ybhg5e3GIgyeqTxK2vUV40dxIxO6lie+qKeJHZ2RIdDwvSTSiCEJif+fA==
   dependencies:
     "@openzeppelin/upgrades-core" "^1.26.2"
     chalk "^4.1.0"
