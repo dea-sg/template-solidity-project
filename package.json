@@ -52,7 +52,7 @@
 		"typescript": "5.1.6"
 	},
 	"dependencies": {
-		"@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
+		"@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
 		"@nomicfoundation/hardhat-network-helpers": "^1.0.2",
 		"@openzeppelin/contracts": "4.9.2",
 		"@openzeppelin/contracts-upgradeable": "4.9.2",
