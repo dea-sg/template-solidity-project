@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-non-null-assertion */
-
 import '@nomicfoundation/hardhat-toolbox'
 import '@openzeppelin/hardhat-upgrades'
 import '@nomicfoundation/hardhat-chai-matchers'
@@ -14,7 +12,7 @@ const privateKey =
 
 const config = {
 	solidity: {
-		version: '0.8.16',
+		version: '0.8.19',
 		settings: {
 			optimizer: {
 				enabled: true,
