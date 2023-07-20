@@ -1,6 +1,7 @@
 /* eslint-disable new-cap */
-/* eslint-disable @typescript-eslint/no-non-null-assertion */
+
 import { ethers, upgrades } from 'hardhat'
+import { type EventLog } from 'ethers'
 
 async function main() {
 	const tokenFactory = await ethers.getContractFactory('ExampleToken')
@@ -8,8 +9,8 @@ async function main() {
 	await token.deployed()
 	console.log('proxy was deployed to:', token.address)
 	const filter = token.filters.Upgraded()
-	const events = await token.queryFilter(filter)
-	console.log('logic was deployed to:', events[0].args!.implementation)
+	const events = (await token.queryFilter(filter)) as EventLog[]
+	console.log('logic was deployed to:', events[0].args.implementation)
 }
 
 main()
