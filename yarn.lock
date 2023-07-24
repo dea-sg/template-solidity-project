@@ -1033,10 +1033,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
-"@typechain/ethers-v6@0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@typechain/ethers-v6/-/ethers-v6-0.4.2.tgz#0484e6584deefbdd8108a7a78225f19012460bfc"
-  integrity sha512-LPC4BBknGkWGR1TLM0d19zZ9/iXIyp2tf6+TDYMYCSbxoaP0F3jNvKVMboU1gDfr2MHaPB+fE/7ExLQ5t9RDwg==
+"@typechain/ethers-v6@0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@typechain/ethers-v6/-/ethers-v6-0.4.3.tgz#badd99f88d5a1f1a2f42590f298e20cc62618e59"
+  integrity sha512-TrxBsyb4ryhaY9keP6RzhFCviWYApcLCIRMPyWaKp2cZZrfaM3QBoxXTnw/eO4+DAY3l+8O0brNW0WgeQeOiDA==
   dependencies:
     lodash "^4.17.15"
     ts-essentials "^7.0.1"
