@@ -1041,10 +1041,10 @@
     lodash "^4.17.15"
     ts-essentials "^7.0.1"
 
-"@typechain/hardhat@8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@typechain/hardhat/-/hardhat-8.0.2.tgz#ca3268c341ddbf128fb5568cae1359ac1040727b"
-  integrity sha512-wn8LPFU601jrIs9qjeuXbO2f2lcNBKW9Uuvj4MdTHpHM71Hv/6CuSHQxk941w1c5QYJxW0nJT15M9sVe33esqg==
+"@typechain/hardhat@8.0.3":
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/@typechain/hardhat/-/hardhat-8.0.3.tgz#a114825f130405bbb8e535314003733b7ce3f91c"
+  integrity sha512-MytSmJJn+gs7Mqrpt/gWkTCOpOQ6ZDfRrRT2gtZL0rfGe4QrU4x9ZdW15fFbVM/XTa+5EsKiOMYXhRABibNeng==
   dependencies:
     fs-extra "^9.1.0"
 
