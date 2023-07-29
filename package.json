@@ -55,7 +55,7 @@
 	},
 	"dependencies": {
 		"@openzeppelin/contracts": "4.9.3",
-		"@openzeppelin/contracts-upgradeable": "4.9.2",
+		"@openzeppelin/contracts-upgradeable": "4.9.3",
 		"hardhat-gas-reporter": "^1.0.8",
 		"solidity-coverage": "^0.8.0"
 	}
