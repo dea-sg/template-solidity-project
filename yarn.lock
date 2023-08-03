@@ -871,10 +871,10 @@
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
-"@openzeppelin/hardhat-upgrades@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-2.0.2.tgz#7fde11aa315eeff4b63ff61879b1dc9a64720b90"
-  integrity sha512-L1Wo6YEABvBoLrB3ivtoHU2/4jrhjR6eDGRlhzQIVIfVkD1F67MuazLq1UEL2Y+h1mzbAKOooJ0gWuf5OjAXRA==
+"@openzeppelin/hardhat-upgrades@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-2.1.0.tgz#cb77e212b7e21f8a98c4fbdf6aad730f9e988153"
+  integrity sha512-cHwWbm5YeRde9y37Tcx9o0xc+hE7t+CrxDAdHt+USELW5agi6IaVECpgtVjPhhpfLR8UDJvSggzaP4HAqQhZtQ==
   dependencies:
     "@openzeppelin/defender-base-client" "^1.47.0"
     "@openzeppelin/platform-deploy-client" "^0.9.0"
