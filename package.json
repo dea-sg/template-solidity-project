@@ -28,7 +28,7 @@
 		"@nomiclabs/hardhat-etherscan": "3.1.7",
 		"@openzeppelin/hardhat-upgrades": "2.2.1",
 		"@typechain/ethers-v6": "0.5.0",
-		"@typechain/hardhat": "8.0.3",
+		"@typechain/hardhat": "9.0.0",
 		"@types/chai": "4.3.5",
 		"@types/dotenv": "8.2.0",
 		"@types/mocha": "10.0.1",
