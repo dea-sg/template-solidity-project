@@ -913,10 +913,10 @@
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
-"@openzeppelin/hardhat-upgrades@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-2.3.0.tgz#bc5bafbb1d3f829b6bbabb9fabc32272bcefaba6"
-  integrity sha512-g+v8lofg3ADTR+gewsv6y8Aulvt8mSX474J6TRlqryRjKaxprd4elz/WTxNFLqhyRO3LC5kiiAmnUpOCpiDSBA==
+"@openzeppelin/hardhat-upgrades@2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-2.3.1.tgz#e62da237ce8767adcaa3021c6a587c30697e1923"
+  integrity sha512-4QkhWIzvW/JaDp3ZupWnoJsUhkh0aXNSndsbqPPgsgEWDu7TME1XrXSb/3cNDCoyt/7KpcEl1XOwhyOYgp0bxg==
   dependencies:
     "@openzeppelin/defender-admin-client" "^1.48.0"
     "@openzeppelin/defender-base-client" "^1.48.0"
