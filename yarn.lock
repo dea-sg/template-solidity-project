@@ -1135,10 +1135,10 @@
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.4.tgz#e913e8175db8307d78b4e8fa690408ba6b65dee4"
   integrity sha512-KnRanxnpfpjUTqTCXslZSEdLfXExwgNxYPdiO2WGUj8+HDjFi8R3k5RVKPeSCzLjCcshCAtVO2QBbVuAV4kTnw==
 
-"@types/chai@4.3.6":
-  version "4.3.6"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.6.tgz#7b489e8baf393d5dd1266fb203ddd4ea941259e6"
-  integrity sha512-VOVRLM1mBxIRxydiViqPcKn6MIxZytrbMpd6RJLIWKxUNr3zux8no0Oc7kJx0WAPIitgZ0gkrDS+btlqQpubpw==
+"@types/chai@4.3.7":
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.7.tgz#5457bc3dce72f20ae533366682a6298471d1c610"
+  integrity sha512-/k+vesl92vMvMygmQrFe9Aimxi6oQXFUX9mA5HanTrKUSAMoLauSi6PNFOdRw0oeqilaW600GNx2vSaT2f8aIQ==
 
 "@types/concat-stream@^1.6.0":
   version "1.6.1"
