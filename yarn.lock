@@ -915,15 +915,15 @@
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
-"@openzeppelin/hardhat-upgrades@2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-2.3.1.tgz#e62da237ce8767adcaa3021c6a587c30697e1923"
-  integrity sha512-4QkhWIzvW/JaDp3ZupWnoJsUhkh0aXNSndsbqPPgsgEWDu7TME1XrXSb/3cNDCoyt/7KpcEl1XOwhyOYgp0bxg==
+"@openzeppelin/hardhat-upgrades@2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-2.3.2.tgz#af9fbfc5627e645e77212b0bac3c450fb6da172d"
+  integrity sha512-7y5P9mNsapGnc1j0N263hbJ6kUzYBSXKjsQwM4MoibJRpocMga+zXG7MabojeTFAghwrlNhxd3BZADCSGex1qA==
   dependencies:
     "@openzeppelin/defender-admin-client" "^1.48.0"
     "@openzeppelin/defender-base-client" "^1.48.0"
     "@openzeppelin/platform-deploy-client" "^0.10.0"
-    "@openzeppelin/upgrades-core" "^1.30.0"
+    "@openzeppelin/upgrades-core" "^1.30.1"
     chalk "^4.1.0"
     debug "^4.1.1"
     ethereumjs-util "^7.1.5"
@@ -941,10 +941,10 @@
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
-"@openzeppelin/upgrades-core@^1.30.0":
-  version "1.30.0"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/upgrades-core/-/upgrades-core-1.30.0.tgz#6087a41c8703228561a4daa910dd7f605a00f8c7"
-  integrity sha512-guW3EaTp/cet/O1uAmEcupHhtEGMzzYGsru2LMllFL5INWmRfeCHSVQu4TjkCLpoYHJoOIGSvosjoCyJL4oEaQ==
+"@openzeppelin/upgrades-core@^1.30.1":
+  version "1.30.1"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/upgrades-core/-/upgrades-core-1.30.1.tgz#725910cbc5b222cf65001ad886959e258052296c"
+  integrity sha512-mFUsZibpiWJv1DR2K89cjbFIseTc2CUV4D2kvPPK5xYke6m7+M87qcr/Xk24mMrdCmG7RWNxQohhVnzESI6Eeg==
   dependencies:
     cbor "^9.0.0"
     chalk "^4.1.0"
