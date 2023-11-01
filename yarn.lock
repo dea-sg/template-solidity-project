@@ -2270,11 +2270,6 @@ config-chain@^1.1.11:
     ini "^1.3.4"
     proto-list "~1.2.1"
 
-confusing-browser-globals@1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.11.tgz#ae40e9b57cdd3915408a2805ebd3a5585608dc81"
-  integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
-
 cookie@^0.4.1:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.2.tgz#0e41f24de5ecf317947c82fc789e06a884824432"
@@ -2729,18 +2724,6 @@ eslint-config-prettier@9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-9.0.0.tgz#eb25485946dd0c66cd216a46232dc05451518d1f"
   integrity sha512-IcJsTkJae2S35pRsRAwoCE+925rJJStOdkKnLVgtE+tEpqU0EVVM7OqrwxqgptKdX29NUwC82I5pXsGFIgSevw==
-
-eslint-config-xo-typescript@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo-typescript/-/eslint-config-xo-typescript-1.0.1.tgz#90a91a4dc2135ea93ef3081ecf1945303ab2bc60"
-  integrity sha512-vPQssnRSUgBFOEfB/KY12CXwltwFSn4RSCfa+w7gjBC2PFQ7Yfgmyei+1XUZ3K+8LRGef2NMJUcxts7PldhDjg==
-
-eslint-config-xo@0.43.1:
-  version "0.43.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.43.1.tgz#c2ac8993f6e429048c813f599265d1636a0bc060"
-  integrity sha512-azv1L2PysRA0NkZOgbndUpN+581L7wPqkgJOgxxw3hxwXAbJgD6Hqb/SjHRiACifXt/AvxCzE/jIKFAlI7XjvQ==
-  dependencies:
-    confusing-browser-globals "1.0.11"
 
 eslint-scope@^7.2.2:
   version "7.2.2"
