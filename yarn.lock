@@ -933,10 +933,10 @@
     axios "^1.4.0"
     lodash "^4.17.21"
 
-"@openzeppelin/hardhat-upgrades@2.3.3":
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-2.3.3.tgz#2826208e447bbe70aebff108ca54957e7f968685"
-  integrity sha512-rF87xYSz6Q2WFq5zcUF1T1tx3Kiq83hmke0xOBn5Qgrl++osseiDwS5oXfDK3NSWvj06oYGLERRGHcXnpQ31FQ==
+"@openzeppelin/hardhat-upgrades@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-2.4.0.tgz#709f5ef370d36559e5969b55e73ab65f4e719ee8"
+  integrity sha512-w6gBuH1wKQ0C62UIX350i1UZtW5C8ijhyVT/cUNxWLJALjwcNCeWcZ257D/6e6+EO8OcAE9vUhN6x5vV9Tug7A==
   dependencies:
     "@openzeppelin/defender-admin-client" "^1.48.0"
     "@openzeppelin/defender-base-client" "^1.48.0"
