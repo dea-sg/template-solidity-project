@@ -933,26 +933,26 @@
     axios "^1.4.0"
     lodash "^4.17.21"
 
-"@openzeppelin/hardhat-upgrades@2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-2.4.1.tgz#5c8aa3f98efbc5065b20c489e96dff96fd43ca67"
-  integrity sha512-IF1nQ0Jbi9bUqGWAAaX6zP5CY5tgTM3jF+ipXXatPYLooFzyGbkk7wHHWzi/+9Rx64Ar7XQVtGlwVdAohMuRcw==
+"@openzeppelin/hardhat-upgrades@2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-2.4.3.tgz#4ddacec2d175e035fd4c66338820ae59130fedea"
+  integrity sha512-MYLbG6E3llFOOfphDSrFtjGmSRelfWc1hW0wcK1ANR2t0ZEetahGx4dAARPKev5R4WsckKT1wlxb8pmabczc2Q==
   dependencies:
     "@openzeppelin/defender-admin-client" "^1.52.0"
     "@openzeppelin/defender-base-client" "^1.52.0"
     "@openzeppelin/defender-sdk-base-client" "^1.5.0"
     "@openzeppelin/defender-sdk-deploy-client" "^1.5.0"
-    "@openzeppelin/upgrades-core" "^1.30.1"
+    "@openzeppelin/upgrades-core" "^1.31.2"
     chalk "^4.1.0"
     debug "^4.1.1"
     ethereumjs-util "^7.1.5"
     proper-lockfile "^4.1.1"
     undici "^5.14.0"
 
-"@openzeppelin/upgrades-core@^1.30.1":
-  version "1.30.1"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/upgrades-core/-/upgrades-core-1.30.1.tgz#725910cbc5b222cf65001ad886959e258052296c"
-  integrity sha512-mFUsZibpiWJv1DR2K89cjbFIseTc2CUV4D2kvPPK5xYke6m7+M87qcr/Xk24mMrdCmG7RWNxQohhVnzESI6Eeg==
+"@openzeppelin/upgrades-core@^1.31.2":
+  version "1.31.3"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/upgrades-core/-/upgrades-core-1.31.3.tgz#ff268a498fcd23106c33149e01dd3e7dfcae79fe"
+  integrity sha512-i7q0IuItKS4uO0clJwm4CARmt98aA9dLfKh38HFRbX+aFLGXwF0sOvB2iwr6f87ShH7d3DNuLrVgnnXUrYb7CA==
   dependencies:
     cbor "^9.0.0"
     chalk "^4.1.0"
