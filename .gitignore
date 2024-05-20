@@ -67,6 +67,7 @@ types
 
 # output of tsc
 *.js
+!eslint.config.js
 !truffle-config.js
 
 # use yarn
@@ -76,3 +77,5 @@ package-lock.json
 artifacts
 cache
 typechain-types
+
+.vscode/settings.json

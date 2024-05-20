@@ -1,5 +1,3 @@
-/* eslint-disable new-cap */
-
 import { ethers, upgrades } from 'hardhat'
 import { type EventLog } from 'ethers'
 
