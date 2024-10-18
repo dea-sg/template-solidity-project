@@ -40,7 +40,7 @@
 		"chai": "4.4.1",
 		"del-cli": "5.1.0",
 		"dotenv": "16.4.5",
-		"eslint": "9.3.0",
+		"eslint": "9.13.0",
 		"eslint-config-prettier": "9.1.0",
 		"ethers": "6.12.1",
 		"hardhat": "2.22.4",
